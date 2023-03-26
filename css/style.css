@@ -1,0 +1,36 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding-top: 30px;
+    box-shadow: 10px 10px 10px black;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    transition: all;
+    font-size: 36px;
+}
+
+.midtext {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+li:hover {
+    background-color: darkseagreen;
+}
